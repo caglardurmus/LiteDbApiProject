@@ -1,0 +1,17 @@
+D:\Documents\GitHub\MyProject\Core\bin\Debug\netcoreapp2.2\Core.deps.json
+D:\Documents\GitHub\MyProject\Core\bin\Debug\netcoreapp2.2\Core.dll
+D:\Documents\GitHub\MyProject\Core\obj\Debug\netcoreapp2.2\Core.csprojAssemblyReference.cache
+D:\Documents\GitHub\MyProject\Core\obj\Debug\netcoreapp2.2\Core.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\MyProject\Core\obj\Debug\netcoreapp2.2\Core.AssemblyInfoInputs.cache
+D:\Documents\GitHub\MyProject\Core\obj\Debug\netcoreapp2.2\Core.AssemblyInfo.cs
+D:\Documents\GitHub\MyProject\Core\bin\Debug\netcoreapp2.2\Core.pdb
+D:\Documents\GitHub\MyProject\Core\obj\Debug\netcoreapp2.2\Core.dll
+D:\Documents\GitHub\MyProject\Core\obj\Debug\netcoreapp2.2\Core.pdb
+D:\Documents\GitHub\LiteDbProject\MyProject\Core\bin\Debug\netcoreapp2.2\Core.deps.json
+D:\Documents\GitHub\LiteDbProject\MyProject\Core\bin\Debug\netcoreapp2.2\Core.dll
+D:\Documents\GitHub\LiteDbProject\MyProject\Core\bin\Debug\netcoreapp2.2\Core.pdb
+D:\Documents\GitHub\LiteDbProject\MyProject\Core\obj\Debug\netcoreapp2.2\Core.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\LiteDbProject\MyProject\Core\obj\Debug\netcoreapp2.2\Core.AssemblyInfoInputs.cache
+D:\Documents\GitHub\LiteDbProject\MyProject\Core\obj\Debug\netcoreapp2.2\Core.AssemblyInfo.cs
+D:\Documents\GitHub\LiteDbProject\MyProject\Core\obj\Debug\netcoreapp2.2\Core.dll
+D:\Documents\GitHub\LiteDbProject\MyProject\Core\obj\Debug\netcoreapp2.2\Core.pdb

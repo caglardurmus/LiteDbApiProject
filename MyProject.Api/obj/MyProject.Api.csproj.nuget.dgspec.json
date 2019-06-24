@@ -1,0 +1,309 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.Api\\MyProject.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\Documents\\GitHub\\LiteDbApiProject\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\GitHub\\LiteDbApiProject\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "D:\\Documents\\GitHub\\LiteDbApiProject\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\caglar.durmus\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\GitHub\\LiteDbApiProject\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\caglar.durmus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "LiteDB": {
+              "target": "Package",
+              "version": "[4.1.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.Api\\MyProject.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.Api\\MyProject.Api.csproj",
+        "projectName": "MyProject.Api",
+        "projectPath": "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.Api\\MyProject.Api.csproj",
+        "packagesPath": "C:\\Users\\caglar.durmus\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\caglar.durmus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.Business\\MyProject.Business.csproj": {
+                "projectPath": "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.Business\\MyProject.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.Business\\MyProject.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.Business\\MyProject.Business.csproj",
+        "projectName": "MyProject.Business",
+        "projectPath": "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.Business\\MyProject.Business.csproj",
+        "packagesPath": "C:\\Users\\caglar.durmus\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\caglar.durmus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj": {
+                "projectPath": "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj"
+              },
+              "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.Entities\\MyProject.Entities.csproj": {
+                "projectPath": "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.Entities\\MyProject.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj",
+        "projectName": "MyProject.DataAccess",
+        "projectPath": "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\caglar.durmus\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\caglar.durmus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Documents\\GitHub\\LiteDbApiProject\\Core\\Core.csproj": {
+                "projectPath": "D:\\Documents\\GitHub\\LiteDbApiProject\\Core\\Core.csproj"
+              },
+              "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.Entities\\MyProject.Entities.csproj": {
+                "projectPath": "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.Entities\\MyProject.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.Entities\\MyProject.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.Entities\\MyProject.Entities.csproj",
+        "projectName": "MyProject.Entities",
+        "projectPath": "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.Entities\\MyProject.Entities.csproj",
+        "packagesPath": "C:\\Users\\caglar.durmus\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\GitHub\\LiteDbApiProject\\MyProject.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\caglar.durmus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Documents\\GitHub\\LiteDbApiProject\\Core\\Core.csproj": {
+                "projectPath": "D:\\Documents\\GitHub\\LiteDbApiProject\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

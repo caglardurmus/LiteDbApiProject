@@ -1,0 +1,12 @@
+D:\Documents\GitHub\MyProject\Entities\bin\Debug\netcoreapp2.2\DataAccess.Entities.deps.json
+D:\Documents\GitHub\MyProject\Entities\bin\Debug\netcoreapp2.2\DataAccess.Entities.dll
+D:\Documents\GitHub\MyProject\Entities\bin\Debug\netcoreapp2.2\DataAccess.Entities.pdb
+D:\Documents\GitHub\MyProject\Entities\bin\Debug\netcoreapp2.2\Core.dll
+D:\Documents\GitHub\MyProject\Entities\bin\Debug\netcoreapp2.2\Core.pdb
+D:\Documents\GitHub\MyProject\Entities\obj\Debug\netcoreapp2.2\DataAccess.Entities.csprojAssemblyReference.cache
+D:\Documents\GitHub\MyProject\Entities\obj\Debug\netcoreapp2.2\DataAccess.Entities.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\MyProject\Entities\obj\Debug\netcoreapp2.2\DataAccess.Entities.AssemblyInfoInputs.cache
+D:\Documents\GitHub\MyProject\Entities\obj\Debug\netcoreapp2.2\DataAccess.Entities.AssemblyInfo.cs
+D:\Documents\GitHub\MyProject\Entities\obj\Debug\netcoreapp2.2\DataAccess.Entities.csproj.CopyComplete
+D:\Documents\GitHub\MyProject\Entities\obj\Debug\netcoreapp2.2\DataAccess.Entities.dll
+D:\Documents\GitHub\MyProject\Entities\obj\Debug\netcoreapp2.2\DataAccess.Entities.pdb
