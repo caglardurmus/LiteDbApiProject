@@ -14,8 +14,6 @@ namespace MyProject.DataAccess.Concrete
         /// </summary>
         public void AddDefaultProducts()
         {
-            var db = _context.GetCollection<Product>("Product");
-
             var products = new List<Product>
             {
                 new Product
@@ -46,7 +44,7 @@ namespace MyProject.DataAccess.Concrete
 
             foreach (var item in products)
             {
-                db.Insert(item);
+                this.collection.Insert(item);
             }
 
         }

@@ -7,21 +7,25 @@ using MyProject.Entities;
 
 namespace MyProject.Api.Controllers
 {
+    [Route("api/[controller]/[action]")]
+    [ApiController]
     public class BaseController : ControllerBase
     {
-        public ActionResult<Result> ReturnResult(string description, bool successful = true)
+        public ActionResult<Result> ReturnResult(string description, object obj = null, bool successful = true)
         {
             var result = new Result()
             {
                 Successful = successful,
-                Description = description
+                Description = description,
+                Object = obj
             };
+
             return result;
         }
 
-        public ActionResult<Result> ReturnFailed()
+        public ActionResult<Result> ReturnFailed(string message)
         {
-            return this.ReturnResult("Beklenmedik Hata!", false);
+            return this.ReturnResult(message, false);
         }
     }
 }

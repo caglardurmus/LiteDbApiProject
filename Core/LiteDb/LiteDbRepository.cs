@@ -4,6 +4,7 @@ using LiteDB;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace Core.LiteDb
@@ -12,31 +13,45 @@ namespace Core.LiteDb
         where TEntity : class, IEntity, new()
     {
 
-        public LiteDatabase _context = null;
+        private LiteDatabase _context;
+        public LiteCollection<TEntity> collection;
+
 
         public LiteDbRepository()
         {
             this._context = new LiteDatabase(@"MyDatabase.db");
+
+            this.collection = this._context.GetCollection<TEntity>(typeof(TEntity).Name);
         }
 
         /// <summary>
         /// Db'den Entity datasını alır ve liste olarak döner.
         /// </summary>
-        public List<TEntity> GetAll()
+        public List<TEntity> GetAll(Expression<Func<TEntity, bool>> filter = null)
         {
-            var data = this._context.GetCollection<TEntity>(typeof(TEntity).Name);
-
-            return data.FindAll().ToList();
+            return filter == null ? this.collection.FindAll().ToList() : this.collection.Find(filter).ToList();
         }
 
         /// <summary>
         /// Id'ye göre entity çeker
         /// </summary>
-        public TEntity GetEntityById(int entityId)
+        public TEntity GetById(int entityId)
         {
-            var data = this._context.GetCollection<TEntity>(typeof(TEntity).Name);
+            return this.collection.FindById(entityId);
+        }
 
-            return data.FindById(entityId);
+        public void Insert(TEntity entity)
+        {
+            this.collection.Insert(entity);
+        }
+
+        public void Update(TEntity entity)
+        {
+            this.collection.Update(entity);
+        }
+        public void Delete(int entityId)
+        {
+            this.Delete(entityId);
         }
     }
 }

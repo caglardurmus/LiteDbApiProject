@@ -8,8 +8,6 @@ using MyProject.Entities;
 
 namespace MyProject.Api.Controllers
 {
-    [Route("api/[controller]/[action]")]
-    [ApiController]
     public class ProductsController : BaseController
     {
         private IProductService _productService;
@@ -17,9 +15,9 @@ namespace MyProject.Api.Controllers
         {
             _productService = productService;
         }
-        // GET api/values
+        
         [HttpGet]
-        public ActionResult<object> Get()
+        public ActionResult<Result> GetAllProducts()
         {
             try
             {
@@ -29,11 +27,11 @@ namespace MyProject.Api.Controllers
                     return this.ReturnResult("Lütfen default ürün listesini ekleyiniz.", false);
                 }
 
-                return list;
+                return this.ReturnResult("Ürün Listesi", list);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return this.ReturnFailed();
+                return this.ReturnFailed(ex.Message);
             }
 
         }
@@ -47,36 +45,11 @@ namespace MyProject.Api.Controllers
 
                 return this.ReturnResult("Default ürünler başarıyla oluşturuldu!");
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return this.ReturnFailed();
+                return this.ReturnFailed(ex.Message);
             }
 
-        }
-
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
-        {
-            return "value";
-        }
-
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
         }
     }
 }

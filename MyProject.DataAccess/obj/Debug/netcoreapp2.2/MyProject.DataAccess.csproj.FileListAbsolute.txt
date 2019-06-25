@@ -26,17 +26,3 @@ D:\Documents\GitHub\LiteDbProject\MyProject\MyProject.DataAccess\obj\Debug\netco
 D:\Documents\GitHub\LiteDbProject\MyProject\MyProject.DataAccess\obj\Debug\netcoreapp2.2\MyProject.DataAccess.csproj.CopyComplete
 D:\Documents\GitHub\LiteDbProject\MyProject\MyProject.DataAccess\obj\Debug\netcoreapp2.2\MyProject.DataAccess.dll
 D:\Documents\GitHub\LiteDbProject\MyProject\MyProject.DataAccess\obj\Debug\netcoreapp2.2\MyProject.DataAccess.pdb
-D:\Documents\GitHub\LiteDbApiProject\MyProject.DataAccess\bin\Debug\netcoreapp2.2\MyProject.DataAccess.deps.json
-D:\Documents\GitHub\LiteDbApiProject\MyProject.DataAccess\bin\Debug\netcoreapp2.2\MyProject.DataAccess.dll
-D:\Documents\GitHub\LiteDbApiProject\MyProject.DataAccess\bin\Debug\netcoreapp2.2\MyProject.DataAccess.pdb
-D:\Documents\GitHub\LiteDbApiProject\MyProject.DataAccess\bin\Debug\netcoreapp2.2\Core.dll
-D:\Documents\GitHub\LiteDbApiProject\MyProject.DataAccess\bin\Debug\netcoreapp2.2\MyProject.Entities.dll
-D:\Documents\GitHub\LiteDbApiProject\MyProject.DataAccess\bin\Debug\netcoreapp2.2\Core.pdb
-D:\Documents\GitHub\LiteDbApiProject\MyProject.DataAccess\bin\Debug\netcoreapp2.2\MyProject.Entities.pdb
-D:\Documents\GitHub\LiteDbApiProject\MyProject.DataAccess\obj\Debug\netcoreapp2.2\MyProject.DataAccess.csprojAssemblyReference.cache
-D:\Documents\GitHub\LiteDbApiProject\MyProject.DataAccess\obj\Debug\netcoreapp2.2\MyProject.DataAccess.csproj.CoreCompileInputs.cache
-D:\Documents\GitHub\LiteDbApiProject\MyProject.DataAccess\obj\Debug\netcoreapp2.2\MyProject.DataAccess.AssemblyInfoInputs.cache
-D:\Documents\GitHub\LiteDbApiProject\MyProject.DataAccess\obj\Debug\netcoreapp2.2\MyProject.DataAccess.AssemblyInfo.cs
-D:\Documents\GitHub\LiteDbApiProject\MyProject.DataAccess\obj\Debug\netcoreapp2.2\MyProject.DataAccess.csproj.CopyComplete
-D:\Documents\GitHub\LiteDbApiProject\MyProject.DataAccess\obj\Debug\netcoreapp2.2\MyProject.DataAccess.dll
-D:\Documents\GitHub\LiteDbApiProject\MyProject.DataAccess\obj\Debug\netcoreapp2.2\MyProject.DataAccess.pdb

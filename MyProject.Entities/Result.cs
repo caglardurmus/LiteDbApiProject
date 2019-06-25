@@ -8,5 +8,6 @@ namespace MyProject.Entities
     {
         public bool Successful { get; set; }
         public string Description { get; set; }
+        public object Object { get; set; }
     }
 }

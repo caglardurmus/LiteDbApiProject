@@ -31,6 +31,8 @@ namespace MyProject.Api
         {
             services.AddScoped<IProductDal, ProductDal>();
             services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<ICartDal, CartDal>();
+            services.AddScoped<ICartService, CartService>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }

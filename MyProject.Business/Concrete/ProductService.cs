@@ -26,7 +26,7 @@ namespace MyProject.Business.Concrete
         }
         public Product GetById(int id)
         {
-            return _productDal.GetEntityById(id);
+            return _productDal.GetById(id);
         }
     }
 }

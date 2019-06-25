@@ -8,8 +8,8 @@ namespace MyProject.Business.Abstract
 {
     public interface ICartService
     {
-        void AddToCart(Cart cart, Product product,int count);
-        void RemoveFromCart(Cart cart, int productId);
-        List<CartLine> List(Cart cart);
+        List<Cart> GetCart(int cartId);
+        void UpdateCart(Cart cart);
+        void AddToCart(Cart cart);
     }
 }

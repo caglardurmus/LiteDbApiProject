@@ -1,4 +1,5 @@
 ﻿using MyProject.Business.Abstract;
+using MyProject.DataAccess.Abstract;
 using MyProject.Entities;
 using System;
 using System.Collections.Generic;
@@ -12,25 +13,31 @@ namespace MyProject.Business.Concrete
     /// </summary>
     public class CartService : ICartService
     {
-        public void AddToCart(Cart cart, Product product, int count)
+        private ICartDal _cartDal;
+        public CartService(ICartDal cartDal)
         {
-            CartLine cartLine = cart.CartLines.FirstOrDefault(c => c.Product.Id == product.Id);
-            if (cartLine != null)
+            _cartDal = cartDal;
+        }
+        public void AddToCart(Cart cart)
+        {
+            _cartDal.Insert(cart);
+        }
+
+        public List<Cart> GetCart(int cartId)
+        {
+            var cart = _cartDal.GetAll(x => x.CartNumber == cartId);
+
+            if (cart.Count == 0)
             {
-                cartLine.Quantity += count;
-                return;
+                return null;
             }
-            cart.CartLines.Add(new CartLine { Product = product, Quantity = count });
+
+            return cart;
         }
 
-        public List<CartLine> List(Cart cart)
+        public void UpdateCart(Cart cart)
         {
-            return cart.CartLines;
-        }
-
-        public void RemoveFromCart(Cart cart, int productId)
-        {
-            cart.CartLines.Remove(cart.CartLines.FirstOrDefault(c => c.Product.Id == productId));
+            _cartDal.Update(cart);
         }
     }
 }

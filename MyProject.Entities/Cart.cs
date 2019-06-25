@@ -1,20 +1,16 @@
-﻿using System;
+﻿using Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 namespace MyProject.Entities
 {
-    public class Cart
+    public class Cart : IEntity
     {
-        public Cart()
-        {
-            CartLines = new List<CartLine>();
-        }
-        public List<CartLine> CartLines { get; set; }
-        public decimal Total
-        {
-            get { return CartLines.Sum(c => c.Product.Price * c.Quantity); }
-        }
+        public int Id { get; set; }
+        public int CartNumber { get; set; }
+        public int ProductId { get; set; }
+        public int Quantity { get; set; }
     }
 }
