@@ -51,10 +51,10 @@ namespace MyProject.Api.Controllers
                 {
                     return this.ReturnResult(description: "Ürün Bulunamadı!", successful: false);
                 }
-                List<Cart> cart;
+
                 if (cartNumber.HasValue)
                 {
-                    cart = _cartService.GetCart(cartNumber.Value);
+                    var cart = _cartService.GetCart(cartNumber.Value);
 
                     if (cart == null)
                     {
