@@ -1,4 +1,4 @@
-<h2 align="center"> LiteDbApiProject </h2>
+<h2 align="center"> WebApi-Project </h2>
 <p align="center">This is a WebApi project developed with .Net Core Framework.</p>
 
 ## The purpose of project
