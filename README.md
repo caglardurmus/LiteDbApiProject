@@ -3,7 +3,7 @@
 
 ## The purpose of project
 
-<p>To create a layered <b>WebApi</b> project by using <b>HTTP</b> requests (HttpGet, HttpPost)
+<p>To create a layered <b>Web API</b> project by using <b>HTTP</b> requests (HttpGet, HttpPost)
 by adding, updating, and get the cart on <b>LightDb</b>.</p>
 
 **Note:** *Call [AddDefaultProducts()](https://github.com/caglardurmus/LiteDbApiProject/blob/master/MyProject.Api/Controllers/ProductsController.cs)
