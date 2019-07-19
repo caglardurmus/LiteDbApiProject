@@ -1,5 +1,5 @@
 <h2 align="center"> Web-API-Project </h2>
-<p align="center">This is a WebApi project developed with .Net Core Framework.</p>
+<p align="center">This is a Web API project developed with .Net Core Framework.</p>
 
 ## The purpose of project
 
